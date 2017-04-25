@@ -1,24 +1,24 @@
 .avatar {
-  width: 30px;
-  border-radius: 50%;
+  width: $small;
+  border-radius: $circle;
 }
 .avatar-large {
-  width: 50px;
-  border-radius: 50%;
+  width: $medium;
+  border-radius: $circle;
 }
 .avatar-team {
-  width: 100px;
-  border-radius: 50%;
+  width: $large;
+  border-radius: $circle;
 }
 .avatar-bordered {
-  width: 30px;
-  border-radius: 50%;
-  box-shadow: 0 1px 2px rgba(0,0,0,0.2);
-  border: white 1px solid;
+  width: $small;
+  border-radius: $circle;
+  box-shadow: 0 1px 2px $small-opacity;
+  border: white $solid-light;
 }
 .avatar-square {
-  width: 30px;
+  width: $small;
   border-radius: 0px;
-  box-shadow: 0 1px 2px rgba(0,0,0,0.2);
-  border: white 1px solid;
+  box-shadow: 0 1px 2px $small-opacity;
+  border: white $solid-light;
 }

@@ -29,13 +29,13 @@
 
 body {
   margin: 0;
-  font-family: Open-sans, sans-serif;
+  font-family: $text-default;
 }
 h1, h2, h3 {
-  font-family: Raleway, Helvetica, sans-serif;
+  font-family: $text-chosen;
 }
 h2 {
   font-size: 28px;
-  margin-bottom: 30px;
+  margin-bottom: $small;
   margin-top: 0;
 }

@@ -31,6 +31,12 @@ $blue: #469AE0;
 $yellow: #FDB631;
 $orange: #E67E22;
 $green: #32B796;
+$grey: #c6c3d4;
+$light-grey: #333333;
+$mickey-mouse: #616668;
+$orange-red: #da552f;
+$white-grey: #E6E6E6;
+$btn-color: #ac2626;
 
 // Gray scale
 $gray-darker:  lighten(#000, 13.5%); // #222
@@ -38,3 +44,28 @@ $gray-dark:    lighten(#000, 20%);   // #333
 $gray:         lighten(#000, 33.5%); // #555
 $gray-light:   lighten(#000, 46.7%); // #777
 $gray-lighter: lighten(#000, 93.5%); // #eee
+
+// Border circle
+$circle: 50%;
+$full: 100%;
+
+// Pixels
+$light: 10px;
+$small: 30px;
+$medium: 50px;
+$large: 100px;
+
+// Border
+$solid-light: 1px solid;
+
+// opacity
+$small-opacity: rgba(0,0,0,0.2);
+$light-opacity: rgba(0, 0, 0, 0.1);
+$medium-opacity: rgba(0,0,0,0.6);
+
+// Opacity color
+$white-light: rgba(255, 255, 255, 0.7);
+
+// fonts
+$text-default: Open-sans, sans-serif;
+$text-chosen: Raleway, Helvetica, sans-serif;

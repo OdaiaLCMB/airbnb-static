@@ -1,7 +1,7 @@
 /* Card design */
 .card {
   height: 230px;
-  text-shadow: 0 1px 3px rgba(0,0,0,0.6);
+  text-shadow: 0 1px 3px $medium-opacity;
   background-size: cover !important;
   color: white;
   position: relative;
@@ -10,31 +10,29 @@
 
 .card-user {
   position: absolute;
-  right: 10px;
-  top: 10px;
+  right: $light;
+  top: $light;
 }
 
 .card-category {
   position: absolute;
-  top: 10px;
-  left: 10px;
+  top: $light;
+  left: $light;
   font-size: 20px;
   text-transform: uppercase;
 }
 
 .card-description {
   position: absolute;
-  bottom: 10px;
-  left: 10px;
-}
-
-.card-description h2 {
+  bottom: $light;
+  left: $light;
+  h2 {
   font-size: 24px;
-  margin-bottom: 10px;
-}
-
-.card-description p {
+  margin-bottom: $light;
+  }
+  p {
   font-size: 15px;
+  }
 }
 
 .card-link {
@@ -46,8 +44,7 @@
   z-index:2;
   background: black;
   opacity: 0;
-}
-
-.card-link:hover{
+  &:hover {
   opacity: 0.1;
+  }
 }
