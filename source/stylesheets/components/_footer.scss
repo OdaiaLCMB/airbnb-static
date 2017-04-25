@@ -1,0 +1,23 @@
+/* Footer design */
+#footer {
+  background: #333333;
+  color: #c6c3d4;
+  padding: 50px;
+}
+
+.link-color {
+  color: #c6c3d4;
+  font-size: 30px;
+  padding-right: 20px;
+}
+
+.link-color:hover {
+  color: yellow;
+  text-decoration: none;
+}
+
+#footer p {
+  font-size: 15px;
+  font-weight: lighter;
+  padding: 20px;
+}
